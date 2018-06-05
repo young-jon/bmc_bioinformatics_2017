@@ -2,7 +2,7 @@
 Data and materials for the publication, 'Unsupervised deep learning reveals prognostically relevant subtypes of glioblastoma'.
 The data are zipped in file tcga_expression_data_bmc_bioinformatics_2017.csv.zip. 
 
-To get to 15,404 columns, we removed columns with any NAs in the column:
+To get to 15,404 columns, we removed columns with any 'NA' values in the column:
 
 ```python
 import pandas as pd
